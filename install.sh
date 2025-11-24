@@ -48,5 +48,5 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install python3 python3-dev unzip
 cd /root
 wget https://github.com/amidevous/xui.one/releases/download/test/XUI_1.5.12.zip -O XUI_1.5.12.zip >/dev/null 2>&1
 unzip XUI_1.5.12.zip >/dev/null 2>&1
-wget https://github.com/Captovesss/xui/blob/main/install.python3 -O /root/install.python3 >/dev/null 2>&1
+wget https://github.com/Captovesss/xui/blob/main -O /root/install.python3 >/dev/null 2>&1
 python3 /root/install.python3
